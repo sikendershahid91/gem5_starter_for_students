@@ -19,7 +19,7 @@ The goal of these scripts are the following.
 
 
 
-The way to use gem5 to see varying performance of l1 and l2 cache designs is to perform the following:
+Use these starter scripts to collect varying performance of l1 and l2 cache designs:
 -------------------------------
 - compile and note path of your executable in **run.config**. e.g. helloworld program
 
