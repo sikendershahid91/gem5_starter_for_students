@@ -39,9 +39,9 @@ sudo bash install.sh or sudo ./install
 
 After installation gem5 directory will appear.
 
-observe the configuration file **run.config**
+### observe the configuration file **run.config**.
 
-In this file, you can modify l1, l2, and the location of the executable to be processed.
+In run.config, you can modify l1, l2, and the location of the executable to be processed. You can create as many configurations files you need. The configuration files need to contain the same parameters. These parameters are used in the following python script discussed. 
 
 observe the python script **run_single_core.py**
 
