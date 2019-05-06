@@ -28,7 +28,7 @@ Use these starter scripts to collect varying performance of l1 and l2 cache desi
 
 
 
-for easy out of the box use, use these scripts to help you acquire
+For easy out of the box use, use these scripts to help you acquire
 data
 -------------------------------
 To install gem5, run the script
@@ -39,17 +39,17 @@ sudo bash install.sh or sudo ./install
 
 After installation gem5 directory will appear.
 
-### observe the configuration file: *run.config*.
+### Observe the configuration file: *run.config*.
 
 In **run.config**, you can modify l1, l2, and the location of the executable to be processed. You can create as many configurations files you need. The configuration files need to contain the same parameters. These parameters are used in the following python script discussed. 
 
-### observe the python script: *run_single_core.py*.
+### Observe the python script: *run_single_core.py*.
 
-*run_single_core.py* script parses the configuration file above and creates the cache models based on the parameters in the configuration file. 
+**run_single_core.py** script parses the configuration file above and creates the cache models based on the parameters in the configuration file. 
 
-### observe the run script: **run_single_core.sh**
+### Observe the run script: **run_single_core.sh**
 
-This script is used as a command line tool to build ISA and run different configurations.
+**run_single_core.sh** script is used as a command line tool to build ISA and run different configurations.
 
 Run script to see usage
 
