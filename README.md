@@ -1,6 +1,6 @@
 # gem5 Starter
 
-gem5 is a computer-system simulator. Useful for microarchitecture-level research. User can modify system-level architecture and process their executable to observe performance. gem5 offers key features that makes it standout from other open source projects. more information on gem5 can be found at their site: gem5.org/Main_Page
+gem5 is a computer-system simulator. Useful for microarchitecture-level research. User can modify system-level architecture and process their executable to observe performance. gem5 offers key features that makes it standout from other open source projects. more information on gem5 can be found at their site: www.gem5.org/Main_Page
 
 
 Key Features
