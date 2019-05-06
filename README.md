@@ -39,15 +39,15 @@ sudo bash install.sh or sudo ./install
 
 After installation gem5 directory will appear.
 
-### observe the configuration file **run.config**.
+### observe the configuration file: *run.config*.
 
-In run.config, you can modify l1, l2, and the location of the executable to be processed. You can create as many configurations files you need. The configuration files need to contain the same parameters. These parameters are used in the following python script discussed. 
+In **run.config**, you can modify l1, l2, and the location of the executable to be processed. You can create as many configurations files you need. The configuration files need to contain the same parameters. These parameters are used in the following python script discussed. 
 
-observe the python script **run_single_core.py**
+### observe the python script: *run_single_core.py*.
 
-This script parses the configuration file above. creates the cache models based on the parameters in the configuration file.
+*run_single_core.py* script parses the configuration file above and creates the cache models based on the parameters in the configuration file. 
 
-observe the run script **run_single_core.sh**
+### observe the run script: **run_single_core.sh**
 
 This script is used as a command line tool to build ISA and run different configurations.
 
@@ -56,6 +56,8 @@ Run script to see usage
 ```
 ./run_single_core.sh 
 ```
+
+
 
 Things to be done to extend starter files
 -------------------------------
