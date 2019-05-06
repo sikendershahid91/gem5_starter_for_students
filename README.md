@@ -11,7 +11,7 @@ Key Features
 
 
 The goal of these scripts are the following.
-
+-------------------------------
 - Aid installation for debian environment.
 - easily configure l1 l2 cache-memory levels.
 - run different configuration templates
@@ -20,7 +20,7 @@ The goal of these scripts are the following.
 
 
 The way to use gem5 to see varying performance of l1 and l2 cache designs is to perform the following:
-
+-------------------------------
 - compile and note path of your executable in **run.config**. e.g. helloworld program
 
 - edit the parameters in **run.config**
@@ -30,7 +30,7 @@ The way to use gem5 to see varying performance of l1 and l2 cache designs is to 
 
 for easy out of the box use, use these scripts to help you acquire
 data
-
+-------------------------------
 To install gem5, run the script
 
 ```
@@ -58,6 +58,7 @@ Run script to see usage
 ```
 
 Things to be done to extend starter files
+-------------------------------
 - create l3 configurable memory block
 - utilize different DRAM controller models
 - extend to more cores than single core
